@@ -1,4 +1,15 @@
 'use strict'
+
+function calculate() {
+  // console.log('I am here');
+let salaryStr = document.getElementById('salary').value;
+let salary = Number(salaryStr);
+    console.log(salary);
+}
+
+function calculateTax(salary) {
+  return 0;
+}
 // console.log('foo bar');
 // EXERCICE_1//
 
